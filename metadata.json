@@ -1,0 +1,5 @@
+{
+  "name": "GATE 2025 Result Portal Replica",
+  "description": "A high-fidelity replica of the Graduate Aptitude Test in Engineering (GATE) 2025 result interface, featuring a responsive modal layout with candidate details, marks, and qualifying criteria.",
+  "requestFramePermissions": []
+}
