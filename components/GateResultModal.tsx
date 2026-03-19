@@ -93,9 +93,9 @@ const GateResultModal: React.FC<GateResultModalProps> = ({ onClose }) => {
             {/* Row 2: Qualifying Marks and GATE Score */}
             <div className="gate-score-label self-start mt-2">Qualifying Marks<sup>##</sup></div>
             <div className="flex gap-2 ml-2">
-              <QualifyingMarks label="General" value="29.2" />
-              <QualifyingMarks label="OBC-NCL/EWS" value="27.2" />
-              <QualifyingMarks label="SC/ST/PwD" value="19.4" />
+              <QualifyingMarks label="General" value="30" />
+              <QualifyingMarks label="OBC-NCL/EWS" value="27" />
+              <QualifyingMarks label="SC/ST/PwD" value="20" />
             </div>
             <div className="gate-score-label md:pl-6 text-right">GATE Score</div>
             <div className="gate-value-box text-center justify-center ml-2">530</div>
