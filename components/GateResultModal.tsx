@@ -86,9 +86,9 @@ const GateResultModal: React.FC<GateResultModalProps> = ({ onClose }) => {
           <div className="mt-10 grid grid-cols-1 md:grid-cols-[auto_350px_auto_150px] gap-y-6 items-center">
             {/* Row 1: Marks and AIR */}
             <div className="gate-score-label">Marks out of 100<sup>#</sup></div>
-            <div className="gate-value-box ml-2">36.67</div>
+            <div className="gate-value-box ml-2">38.6</div>
             <div className="gate-score-label md:pl-6 text-right">All India Rank in this test paper</div>
-            <div className="gate-value-box text-center justify-center ml-2">15164</div>
+            <div className="gate-value-box text-center justify-center ml-2">11938</div>
 
             {/* Row 2: Qualifying Marks and GATE Score */}
             <div className="gate-score-label self-start mt-2">Qualifying Marks<sup>##</sup></div>
@@ -98,7 +98,7 @@ const GateResultModal: React.FC<GateResultModalProps> = ({ onClose }) => {
               <QualifyingMarks label="SC/ST/PwD" value="20" />
             </div>
             <div className="gate-score-label md:pl-6 text-right">GATE Score</div>
-            <div className="gate-value-box text-center justify-center ml-2">421</div>
+            <div className="gate-value-box text-center justify-center ml-2">449</div>
           </div>
 
           {/* Footnotes */}
